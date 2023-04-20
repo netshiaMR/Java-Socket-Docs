@@ -1,15 +1,5 @@
 # Java-Socket-Docs
 
-Open sidebar
-Troubleshooting socket connection reset
-
-
-Rendani Netshia
-Write a java  Class call Socket Async Connection channel that connect to a socket server where it also handle the Socket Connection Exception and try to connect to the server 3 time and if it fails to connect then log the failed reason message to logs also it should use TLS Socket Connection
-
-2 / 2
-
-
 Here's an example implementation of a Java class called SocketAsyncConnectionChannel that connects to a server using a TLS socket connection. It handles Socket Connection Exception and tries to connect to the server three times before logging the failed reason message to logs:
 
 java
