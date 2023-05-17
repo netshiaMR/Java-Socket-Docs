@@ -912,22 +912,3 @@ public class MyApplication {
 In this example, we use the @Autowired annotation to inject the ApplicationContext into the MyApplication class. Then, in the connectToServer() method, we retrieve the SSLContext bean from the application context using the context.getBean("mySslContext") method, where "mySslContext" is the name of the SSLContext bean in the application context. We can then use the sslContext to open an SSL socket connection to the server.
 
 Note that the @DependsOn annotation is used to ensure that the TSLCertLoader bean is initialized before the MyApplication bean, so that the SSLContext bean is available when the connectToServer() method is called.
-
-
-
-
-Subject: IMS Personalization Request and Response
-
-Dear [Recipient],
-
-I am writing to update you on the status of our recent IMS personalization request. As you are aware, we sent a request to the backend system for personalization of our product offerings.
-
-I am pleased to inform you that we have received a response from the backend system regarding the personalization request. However, I regret to inform you that the response indicates that the request has failed.
-
-We are currently investigating the reason for the failure and are working closely with the technical team to address the issue as soon as possible. We will keep you updated on the progress and let you know when the issue has been resolved.
-
-In the meantime, please let us know if you have any questions or concerns. We apologize for any inconvenience this may have caused and appreciate your patience as we work to resolve this issue.
-
-Thank you for your understanding.
-
-Best regards,
